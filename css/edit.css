@@ -1,0 +1,90 @@
+
+/*Navbar Links*/
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+}
+
+
+.carousel-caption {
+    bottom: 170px;
+    background: rgba(3,3,3,0.3);
+    padding-right: 20px;
+    padding-left: 20px;    
+}
+
+h1 , h4 {
+    color: floralwhite;
+}
+
+/* about section */ 
+.about {
+ padding-top: 70px;
+ padding-bottom: 20px;   
+ background-image: linear-gradient(white, rgb(90, 153, 224));
+}
+
+#title {
+    color: black;
+}
+
+.about .lead {
+    color: rgb(112, 102, 102);
+    font-size: 25px;
+    padding: 15px 50px;
+}
+
+section img {
+    margin: 20px 20px;
+}
+
+/* skills section */
+
+.progress {
+    margin-bottom: 10px;
+}
+
+
+.skills {
+    padding-top: 40px;
+    padding-bottom: 50px;
+    height: 400px;
+}
+
+.skills h1 {
+    color: black;
+    margin-bottom: 40px;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.progress-bar {
+    font-weight: 500;
+    font-size: small;
+}
+
+
+/*contact us section */
+
+.contact {
+    background-image: url("../image/contact.jpg");
+    min-height: 300px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.contact i, .contact p {
+    color: bisque;
+}
+
+form label {
+    color:white;
+}
+
+section form {
+    margin-top: 30px;
+}
+
+.contact textarea , .contact input {
+    background-color: rgb(238, 227, 227);
+}

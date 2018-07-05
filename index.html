@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="css/bootstrap.css" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/edit.css" />
 </head>
 
@@ -93,17 +94,19 @@
     <!--Section - About-->
 
     <section class="about text-center" id="about">
-        <h1 id="title">About Me</h1>
-        <img src="image/shady.jpg" alt="Shady" class="rounded-circle">
+        <div class="container wow fadeIn">
+                <h1 id="title">About Me</h1>
+                <img src="image/shady.jpg" alt="Shady" class="rounded-circle">
         <p class="lead">Hello, My name is <strong>Shady</strong> from Egypt and I currently live in Budapest. I started learning coding since January 2018 with the front-end web developer track from Udacity, The course included the HTML, CSS, JS and GIT. I became very excited to study more and more about web development and I spend many hours of my day studing. I joined Microsoft Professional Program- front-end development track and the curriculum focuses on the job-ready skills in highest demand for front end web developers. seeking a position that will utilize, and expand skills as a budding Junior Front-End Web Developer. I'm Excited to use front-end developer skills and help deliver visually appealing sites with user-friendly design. Striving to transfer my previous experience in customer service to a relevant career in Web Developing. Websites are the most important tools people use today to reference information about companies, products and services. I'm hard worker person looking to learn new things always especially about my new passion (Front-End Web Development).</p>
+    </div>
     </section>
 
     <!--Skills-->
 
     <section class="skills" id="skills">
         <div class="container">
-            <h1>My Skills</h1>
-            <div class="row">
+            <h1 class=" wow flipInX">My Skills</h1>
+            <div class="row wow zoomIn">
                 <div class="col-md-12">
                     <div class="skills-progress">
                         <div class="progress" style="height: 25px;">
@@ -124,6 +127,9 @@
                         <div class="progress" style="height: 25px;">
                             <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%">GIT</div>
                         </div>
+                        <div class="progress" style="height: 25px;">
+                                <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">AngularJS</div>
+                            </div>
                     </div>
                 </div>
 
@@ -135,14 +141,14 @@
     <!--contact me-->
 
     <section class="contact" id="contact">
-        <div class="container-fluid text-center">
+        <div class="container-fluid text-center wow bounceInLeft">
             <i class="fa fa-headphones fa-5x"></i>
             <h1>Tell Me What Do You Think</h1>
             <p class="lead">Feel free to contact me anytime</p>
         </div>
 
         <!--contact form starts here-->
-        <form>
+        <form class="wow flipInX">
             <div class="container">
                 <div class="row">
                     <div class="col-md-6">
@@ -174,9 +180,35 @@
         </form>
     </section>
 
+    <!--Footer-->
+
+    <section class="footer">
+        <div class="container wow fadeInUp">
+            <div class="row">
+                <div class="col-md-4">
+                    <h3>Address</h3>
+                    Istrang Street 60/A<br>1162<br>Budapest, Hungary
+                </div>
+                <div class="col-md-4">
+                    <h3>Social Media</h3>
+                    <a href="https://www.facebook.com/shadymahmoud88" target="_blank"><li class="fab fa-facebook-square fa-3x" style="color: #3B5998;"></li></a>
+                    <a href="https://www.linkedin.com/in/shady-mahmoud1988/" target="_blank"><i class="fab fa-linkedin fa-3x" style="color: #0077B5;"></i></a>
+                    <i class="fab fa-twitter-square fa-3x" style="color: #1da1f2;"></i>
+                </div>
+                <div class="col-md-4">
+                    <h3>You Can Reach me @</h3>
+                    Shady_mahmoud@live.com<br>+36204179544
+                </div>
+            </div>
+        </div>
+    </section>
+
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/plugins.js"></script>
+    <script src="js/jquery.nicescroll.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script> new WOW().init();</script>
 </body>
 
 </html>

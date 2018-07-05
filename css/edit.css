@@ -19,23 +19,23 @@ h1 , h4 {
 
 /* about section */ 
 .about {
- padding-top: 70px;
- padding-bottom: 20px;   
- background-image: linear-gradient(white, rgb(90, 153, 224));
+ padding-top: 120px;
+ background-image:url("../image/jumbotron2.jpg");
+ background-position: center;
+ background-attachment: fixed;
+ min-height: 800px;
+ color: gold;
 }
 
-#title {
-    color: black;
+.about #title {
+    color: gold;
+    padding-bottom: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .about .lead {
-    color: rgb(112, 102, 102);
     font-size: 25px;
-    padding: 15px 50px;
-}
-
-section img {
-    margin: 20px 20px;
+    padding-bottom: 20px;
 }
 
 /* skills section */
@@ -46,12 +46,13 @@ section img {
 
 
 .skills {
-    padding-top: 40px;
     padding-bottom: 50px;
     height: 400px;
+    min-height: 500px;
 }
 
 .skills h1 {
+    padding-top: 70px;
     color: black;
     margin-bottom: 40px;
     font-family: sans-serif;
@@ -87,4 +88,22 @@ section form {
 
 .contact textarea , .contact input {
     background-color: rgb(238, 227, 227);
+}
+
+/*footer*/
+
+.footer {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #333;
+    color: white;
+}
+.footer h3 {
+    color: crimson;
+    font-style: italic; 
+}
+
+.footer .fab {
+    margin-top: 10px;
+    padding-right: 10px;
 }
